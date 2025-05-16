@@ -12,9 +12,6 @@ Pod::Spec.new do |s|
   s.swift_version = '5.0'
   s.ios.vendored_frameworks = [ 'Sources/Calculator_Framework.xcframework' ]
 
-  # Xcode 12.2 build fix
-  # https://stackoverflow.com/questions/63607158/xcode-12-building-for-ios-simulator-but-linking-in-object-file-built-for-ios
-
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 end
