@@ -65,10 +65,35 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:20Calculator_Framework0A0C9multitply_4withS2i_SitF",
-            "mangledName": "$s20Calculator_Framework0A0C9multitply_4withS2i_SitF",
+            "usr": "s:20Calculator_Framework0A0C9multitply_4withS2i_SitFZ",
+            "mangledName": "$s20Calculator_Framework0A0C9multitply_4withS2i_SitFZ",
             "moduleName": "Calculator_Framework",
+            "static": true,
             "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "version",
+            "printedName": "version()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20Calculator_Framework0A0C7versionSSyFZ",
+            "mangledName": "$s20Calculator_Framework0A0C7versionSSyFZ",
+            "moduleName": "Calculator_Framework",
+            "static": true,
+            "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
