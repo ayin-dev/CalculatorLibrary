@@ -4,16 +4,7 @@ Pod::Spec.new do |s|
   s.summary          = 'Calculator Lib'
   s.description      = 'Calculator Lib'
   s.homepage         = 'https://www.darwinium.com'
-  s.license          = { :type => 'DWN', :text => <<-LICENSE
-Copyright (C) Darwinium - All Rights Reserved
-
-This source code is protected under international copyright law.  All rights
-reserved and protected by the copyright holders.
-This file is confidential and only available to authorized individuals with the
-permission of the copyright holders.  If you encounter this file and do not have
-permission, please contact the copyright holders and delete this file.
-                 LICENSE
-               }
+  s.license          = { :type => 'DWN', :text => 'LICENSE' }
   s.author           = { 'Alan Yin' => 'ayin@darwinium.com' }
   s.source           = { :git => 'https://github.com/ayin-dev/CalculatorLibrary.git', :tag => s.version.to_s }
 
