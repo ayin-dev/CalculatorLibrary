@@ -11,10 +11,11 @@ This source code is protected under international copyright law.  All rights
 reserved and protected by the copyright holders.
 This file is confidential and only available to authorized individuals with the
 permission of the copyright holders.  If you encounter this file and do not have
-permission, please contact the copyright holders and delete this file.  LICENSE
+permission, please contact the copyright holders and delete this file.
+                 LICENSE
                }
   s.author           = { 'Alan Yin' => 'ayin@darwinium.com' }
-  s.source           = { :git => 'https://github.com/ayin-dev/CalculatorLibrary.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ayin-dev/CalculatorLibrary.git', :tag => "#{s.version}"  }
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
