@@ -15,7 +15,7 @@ permission, please contact the copyright holders and delete this file.
                  LICENSE
                }
   s.author           = { 'Alan Yin' => 'ayin@darwinium.com' }
-  s.source           = { :http => 'https://github.com/ayin-dev/CalculatorLibrary.git', :branch => 'v1.0' }
+  s.source           = { :http => 'https://github.com/ayin-dev/CalculatorLibrary.git' }
 
   s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
