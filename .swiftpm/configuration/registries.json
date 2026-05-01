@@ -1,0 +1,12 @@
+{
+  "authentication" : {
+
+  },
+  "registries" : {
+    "[default]" : {
+      "supportsAvailability" : false,
+      "url" : "https://dwnedge.jfrog.io/artifactory/api/swift/dev-swift"
+    }
+  },
+  "version" : 1
+}
